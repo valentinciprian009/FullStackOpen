@@ -1,0 +1,13 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+Content-type: application/json
+{content: "testing the app", date:"2022-08-07T08: 18:24.609Z"}
+end note
+
+server-->browser:201 created
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note

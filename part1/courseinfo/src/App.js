@@ -2,8 +2,6 @@ import Header from "./Header"
 import Total from "./Total"
 import Content from "./Content"
 
-// All the code below is for the exercises 1.1 - 1.5
-
 const App = () => {
   const course = {
     name: 'Half Stack application development',
